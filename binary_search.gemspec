@@ -3,7 +3,7 @@
 # Instead, edit Jeweler::Tasks in Rakefile, and run 'rake gemspec'
 # -*- encoding: utf-8 -*-
 # stub: binary_search 0.4.1 ruby lib
-# stub: ext/extconf.rb
+# stub: ext/binary_search_ext/extconf.rb
 
 Gem::Specification.new do |s|
   s.name = "binary_search"
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.date = "2014-03-27"
   s.description = "Binary search and index methods for Ruby Arrays."
   s.email = "tbmcmullen@gmail.com"
-  s.extensions = ["ext/extconf.rb"]
+  s.extensions = ["ext/binary_search_ext/extconf.rb"]
   s.extra_rdoc_files = [
     "LICENSE",
     "README.textile"
