@@ -19,7 +19,7 @@ begin
     s.description = s.summary
     s.authors = ["Tyler McMullen", "Michael Graff"]
     s.files = Dir.glob("{ext,lib}/**/*.{c,rb}")
-    s.extensions = ['ext/extconf.rb']
+    s.extensions = ['ext/binary_search_ext/extconf.rb']
     s.require_paths << 'ext'
   end
   Jeweler::RubygemsDotOrgTasks.new
